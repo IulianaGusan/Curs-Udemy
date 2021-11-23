@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(172, 255, 47, 0.226);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: cornflowerblue;
+}
+
+#your-name {
+  background-color: rgba(220, 20, 60, 0.466);
+  border: 5px solid rgb(119, 101, 101);
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10;
+  font-size: 16px;
+}
+
+a {
+  background-color: chocolate;
+}
+
+#apple-image {
+  width: 100px;
+}
+
+#your-name h2 {
+  color: rgb(126, 9, 67);
+}
