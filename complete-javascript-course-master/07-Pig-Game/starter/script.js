@@ -89,13 +89,14 @@ btnNew.addEventListener('click', function () {
     .classList.remove('player--winner');
 
   // switch player
-  if ((activePlayer = 0)) {
+  if (activePlayer === 0) {
   } else switchPlayer();
 
   //reset score & current score
   score0El.textContent = 0;
   score1El.textContent = 0;
-  document.getElementById(`current--${activePlayer}`).textContent = 0;
+  current1El.textContent = 0;
+  current1El.textContent = 0;
 
   //activate buttons and restart game
   playing = true;
